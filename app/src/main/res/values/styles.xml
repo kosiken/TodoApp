@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.Green" parent="AppTheme">
+        <item name="colorPrimary">
+           @color/greenPrimary
+        </item>
+        <item name="colorPrimaryDark">
+            @color/greenPrimaryDark
+        </item>
+
+        <item name="colorAccent">@color/greenAccent</item>
+        <item name="actionMenuTextColor">#C4D8B8</item>
+        <item name="android:backgroundTint">@color/greenBackgroundTint</item>
+
+        <item name="android:textColor">#C4D8B8</item>
+        <item name="navigationViewStyle">
+            @style/AppTheme.ButtonGreen
+        </item>
+    </style>
+    <style name="AppTheme.Blue" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="android:backgroundTint">@color/black_overlay</item>
+
+<item name="android:textColor">#FFFFFF</item>
+
+        <item name="navigationViewStyle">
+            @style/AppTheme.Button
+        </item>
+<!--<item name="android:textColor">#</item>-->
+        <!--        <item name="actionMenuTextColor">#ffffff</item>-->
+    </style>
+
+    <style name="AppTheme.Button"  parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemTextColor">@color/drawer_list</item>
+        <item name="itemIconTint">@color/drawer_list</item>
+    
+    </style>
+
+
+    <style name="AppTheme.ButtonGreen"  parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemTextColor">@color/drawer_list_green</item>
+        <item name="itemIconTint">@color/drawer_list_green</item>
+
+    </style>
+
+
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.SplashScreen" parent="Widget.AppCompat.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="title_activity_todo_edit">TodoEditActivity</string>
+    <string name="edit_todo" translatable="false">Edit Todo</string>
+    <string name="todo_title">Title of todo</string>
+    <string name="todo_description">Description of todo</string>
+    <string name="delete_todo">Delete A Todo</string>
+    <string name="delete_todos">Delete All Todos</string>.
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="title_activity_startes_main">StartesMain</string>
+    <string name="nav_header_title">TodoApp</string>
+    <string name="nav_header_subtitle">allisonkosy@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="todo">Todo</string>
+    <string name="connect_desktop">Connect Desktop</string>
+    <string name="connect_help">To connect desktop make sure wifi is turned on and then turn on your hotspot</string>
+    <string name="setup_desktop">Setup Desktop</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="theme_header">Theme</string>
+    <string name="sync_header">Sync</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync todos periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically sync todos
+    </string>
+    <string name="attachment_summary_off">Only download sync when manually requested</string>
+    <string name="dark_theme">Select Theme</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="done">Done</string>
+    <string name="select_all">Select All</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="welcome_note">This is my first app in android using the native components provided by android</string>
+    <string name="pref_theme">theme</string>
+    <string name="pref_sync">sync</string>
+    <string name="more_options">More Options</string>
+    <string name="visit_web">Visit our website</string>
+    <string name="view_code">View code on github</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+</resources>
